@@ -8,9 +8,9 @@ import javax.sound.midi.MidiUnavailableException;
  */
 public class Main {
     public static void main(String[] args){
-        MiniMusicCmdLine test=new MiniMusicCmdLine();
+        MiniMusicPlayer3 test=new MiniMusicPlayer3();
         try{
-            test.play(110,80);
+            test.play();
         }
         catch (MidiUnavailableException ex){
             System.out.println("Bummer");
