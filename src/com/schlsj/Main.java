@@ -8,7 +8,7 @@ import javax.sound.midi.MidiUnavailableException;
  */
 public class Main {
     public static void main(String[] args){
-        MiniMusicPlayer3 test=new MiniMusicPlayer3();
+        BeatBox test=new BeatBox();
         try{
             test.play();
         }
